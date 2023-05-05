@@ -1,5 +1,5 @@
 *******************************************************************************
-JPL/HORIZONS               3753 Cruithne (1986 TO)         2023-May-05 15:46:25
+JPL/HORIZONS               3753 Cruithne (1986 TO)         2023-May-05 15:47:07
 Rec #:    3753 (+COV) Soln.date: 2023-Mar-01_06:10:23   # obs: 1216 (1973-2022)
  
 IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
@@ -26,7 +26,7 @@ ASTEROID comments:
   
 
 *******************************************************************************
-Ephemeris / WWW_USER Fri May  5 15:46:25 2023 Pasadena, USA      / Horizons
+Ephemeris / WWW_USER Fri May  5 15:47:07 2023 Pasadena, USA      / Horizons
 *******************************************************************************
 Target body name: 3753 Cruithne (1986 TO)         {source: JPL#240}
 Center body name: Earth (399)                     {source: DE441}
