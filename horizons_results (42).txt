@@ -1,0 +1,131 @@
+*******************************************************************************
+JPL/HORIZONS               3753 Cruithne (1986 TO)         2023-May-05 16:45:35
+Rec #:    3753 (+COV) Soln.date: 2023-Mar-01_06:10:23   # obs: 1216 (1973-2022)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2456900.5 ! 2014-Aug-31.00 (TDB)         Residual RMS= .35645
+   EC= .5148627256994029   QR= .4840184658385133   TP= 2457012.169995938
+   OM= 126.2462939076055   W=  43.80978547847901   IN= 19.80747881540994
+   A= .9976938311662474    MA= 249.5553600271496   ADIST= 1.511369196493981
+   PER= .99656             N= .9890269900000001    ANGMOM= .014729875
+   DAN= .53459             DDN= 1.16671            L= 168.3137556
+   B= 13.566979            MOID= .0710535          TP= 2014-Dec-20.6699959380
+ 
+Asteroid physical parameters (km, seconds, rotational period in hours):
+   GM= n.a.                RAD= 1.0355             ROTPER= 27.3099
+   H= 15.5                 G= .150                 B-V= n.a.
+                           ALBEDO= .365            STYP= Q
+ 
+ASTEROID comments: 
+1: soln ref.= JPL#240, OCC=0
+2: source=ORB
+*******************************************************************************
+
+  
+  
+
+*******************************************************************************
+Ephemeris / WWW_USER Fri May  5 16:45:35 2023 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: 3753 Cruithne (1986 TO)         {source: JPL#240}
+Center body name: Earth (399)                     {source: DE441}
+Center-site name: (user defined site below)
+*******************************************************************************
+Start time      : A.D. 2007-Sep-01 00:00:00.0000 TDB
+Stop  time      : A.D. 2008-Sep-01 00:00:00.0000 TDB
+Step-size       : 1 calendar years
+*******************************************************************************
+Center geodetic : 286.0058, 40.7517, -2.02709E-12 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 286.0058, 4838.6361, 4141.57364 {E-lon(deg),Dxy(km),Dz(km)}
+Center pole/equ : ITRF93                          {East-longitude positive}
+Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 1 (position only)
+EOP file        : eop.230504.p230727
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2023-MAY-04. PREDICTS-> 2023-JUL-26
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2456900.5 ! 2014-Aug-31.00 (TDB)         Residual RMS= .35645        
+   EC= .5148627256994029   QR= .4840184658385133   TP= 2457012.169995938       
+   OM= 126.2462939076055   W=  43.80978547847901   IN= 19.80747881540994       
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X= 1.215347990905840E+00  Y= 5.153520927692684E-01  Z=-2.481738801145509E-01
+  VX=-7.990656955364673E-03 VY= 8.039467650712289E-03 VZ= 3.939584837771865E-03
+Asteroid physical parameters (km, seconds, rotational period in hours):        
+   GM= n.a.                RAD= 1.0355             ROTPER= 27.3099             
+   H= 15.5                 G= .150                 B-V= n.a.                   
+                           ALBEDO= .365            STYP= Q                     
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,
+**************************************************************************************************************************
+$$SOE
+2454344.500000000, A.D. 2007-Sep-01 00:00:00.0000,  5.066442929661116E+07,  1.012432004223494E+08, -6.496438004902812E+07,
+2454710.500000000, A.D. 2008-Sep-01 00:00:00.0000,  4.790370594385999E+07,  1.022125841884845E+08, -6.495031003266096E+07,
+$$EOE
+**************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
